@@ -1,17 +1,20 @@
-import BasicMotion from "./components/BasicMotion"
+// import BasicMotion from "./components/BasicMotion"
 
-import AnimationControls from "./components/AnimationControls"
+import ViewBasedAnimation from "./components/ViewBasedAnimation"
 
-import Gesture from "./components/Gesture"
+// import AnimationControls from "./components/AnimationControls"
+
+// import Gesture from "./components/Gesture"
 
 
 function App() {
 
   return (
     <>
-      <BasicMotion></BasicMotion>
-      <Gesture></Gesture>
-      <AnimationControls></AnimationControls>
+      {/* <BasicMotion></BasicMotion> */}
+      {/* <Gesture></Gesture> */}
+      {/* <AnimationControls></AnimationControls> */}
+      <ViewBasedAnimation></ViewBasedAnimation>
     </>
   )
 }
